@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zhisync"
+version = "0.1.0"
+description = "Metadata-driven collaborative inference SDK for decentralized healthcare IoT."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary - research release" }
+authors = [
+  { name = "ZhiSync Authors" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["zhisync*"]

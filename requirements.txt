@@ -1,0 +1,2 @@
+# Core v0.1 SDK uses only Python standard library.
+# No mandatory third-party dependencies.
